@@ -1,8 +1,14 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        // ваш код начнется здесь
-        // вы не должны ограничиваться только классом Main и можете создавать свои классы по необходимости
-        System.out.println("Привет Мир");
+
+        Guests.guests();
+        Products.products();
+        Calculator cal=new Calculator();
+        cal.calculator();
+
     }
 }
+
