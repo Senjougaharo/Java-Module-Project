@@ -11,7 +11,7 @@ public class Calculator {
         double score = price / peopleAmount;
         String finalPriсe = "Общая сумма составила %.2f ";
         String Deal = "\nКаждый человек должен заплатить %.2f ";
-        System.out.println(String.format(finalPriсe, price) + endWord(price) + "." + String.format(Deal+ endWord(score) + "."));
+        System.out.println(String.format(finalPriсe, price) + endWord(price) + "." + String.format(Deal, score) + endWord(score) + ".");
     }
 
     public String endWord(double a) {
